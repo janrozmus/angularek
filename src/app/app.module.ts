@@ -16,7 +16,8 @@ import { AppComponent } from './app.component';
     DashboardComponent,
     NgIfComponent,
     NgSwitchComponent,
-    NgForComponent
+    NgForComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +26,6 @@ import { AppComponent } from './app.component';
     FormsModule
   ],
   providers: [],
-  bootstrap: [DashboardComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

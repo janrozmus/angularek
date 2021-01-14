@@ -11,7 +11,7 @@ isTimeForThisComponent: boolean;
 
   constructor() {
     console.log("wywołanie konstruktora");
-    this.isTimeForThisComponent = false;
+    this.isTimeForThisComponent = true;
     if(this.isTimeForThisComponent){
       this.title= 'Tematem tego wpisu jest dyrektywa ng-if';
     }
